@@ -6,4 +6,5 @@
 """
 fdlina = float(input('укажите длину:'))
 fshirina = float(input('укажите ширину:'))
+# if fdlina.is_n() and fshirina.isdigit():
 print((fdlina + fshirina) // 43.500)
