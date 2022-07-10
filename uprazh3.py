@@ -1,3 +1,5 @@
 # S = a × b
-print(int(input('длина: ')) * int(input('ширина: ')))
-
+dlina = input('длина: ')
+shirina = input('ширина: ')
+if dlina.isdigit()() and shirina.isdigit():
+    print(dlina * shirina)

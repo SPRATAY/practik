@@ -5,4 +5,3 @@ buf = a
 a = b
 b = buf
 print(a, b)
-
