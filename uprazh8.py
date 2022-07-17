@@ -9,5 +9,5 @@ print(f'разница между a и b {(int(a) // int(b) - 1) * 100}')
 print(f'произведение a и b: {int(a) * int(b)}')
 print(f'частное от деления a на b {int(a) // int(b)}')
 print(f'остаток от деления a на b {int(a) % int(b)}')
-math.log10(float(a))
+math.log10(float(a)) # не работает
 print(f'результат возведения числа a в степень b {int(a) ** int(b)}')

@@ -1,22 +1,21 @@
 # S = (P x I x t / K) / 100
-summa = float(input('Начальный деп: '))
-stavka = 4
-dney = 365
-kalendar = 365
-god = 1
-formyla = (summa * stavka * (dney * god) / kalendar)
-print(f'За 1 год: {formyla}')
-god = "qqq"
-print(f'За 2 год: {formyla}')
+sum = float(input('Начальный деп: '))
+bet = 4
+day = 365
+calendar = 365
+year = 1
+formula = (sum * bet * (day * year) / calendar)
+print(f'За 1 год: {formula}')
+god = "qqq" # почему не работаут?)
+print(f'За 2 год: {formula}')
 god = 3
-print(f'За 3 год: {formyla}')
-# непонял пытаюсь сделать
+print(f'За 3 год: {formula}')
 
 
-def formyla(god):
-    print(f'За {god} год: {summa * stavka * (dney * god) / kalendar}')
+def formula(year: int):
+    print(f'За {year} год: {sum * bet * (day * year) / calendar}')
 
 
-formyla(1)
-formyla(2)
-formyla(3)
+formula(1)
+formula(2)
+formula(3)

@@ -1,4 +1,4 @@
-fytii = input('ведите футы: ')
-duim = input('ведите дюймы; ')
-if fytii.isdigit() and duim.isdigit():
-    print(((float(fytii) * 12) * 2.54) + (float(duim) * 2.54))
+ft = input('ведите футы: ')
+inch = input('ведите дюймы; ')
+if ft.isdigit() and inch.isdigit():
+    print(((float(ft) * 12) * 2.54) + (float(inch) * 2.54))

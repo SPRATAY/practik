@@ -5,8 +5,8 @@
 Коэффициенты для пересчета единиц вы без труда найдете в интернете
 1futi 2futi>duimi and yardi and mili
 """
-futi = float(input('ведите футы'))
-# if futi.isdigit
-print(f'дюймы: {futi * 12}')
-print(f'ярды: {futi * 0.33333234018318}')
-print(f'мили: {futi * 0.00018939387935758}')
+ft = int(input('ведите футы'))
+if ft.isdigit():
+    print(f'дюймы: {ft * 12}')
+    print(f'ярды: {ft * 0.33333234018318}')
+    print(f'мили: {ft * 0.00018939387935758}')

@@ -1,5 +1,5 @@
-def tovar(colichestvo):
-    print('10.95 + (colichestvo -1) * 2.95')
+def product(quantity: int):
+    print('10.95 + (quantity -1) * 2.95')
 
 
-tovar(int(input()))
+product(int(input()))
