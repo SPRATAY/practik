@@ -1,9 +1,10 @@
-money = float(input('счет: '))
-chai = 0.18
-nalog = 0.20
-mchai = money * chai
-mnalog = money * nalog
-# if money.isdigit():
-print(f'чай: {mchai}')
-print(f'налог: {mnalog}')
-print(f'чай и налог: {mchai + mnalog}')
+money = input('счет: ')
+tea = 0.18
+tax = 0.20
+mtea = money * tea
+mtax = money * tax
+if money.isdigit():
+    money = int(money)
+    print(f'чай: {mtea}')
+    print(f'налог: {mtax}')
+    print(f'чай и налог: {mtea + mtax}')

@@ -5,8 +5,9 @@
 Коэффициенты для пересчета единиц вы без труда найдете в интернете
 1futi 2futi>duimi and yardi and mili
 """
-ft = int(input('ведите футы'))
+ft = input('ведите футы')
 if ft.isdigit():
+    ft = float(ft)
     print(f'дюймы: {ft * 12}')
     print(f'ярды: {ft * 0.33333234018318}')
     print(f'мили: {ft * 0.00018939387935758}')

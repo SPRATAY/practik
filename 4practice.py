@@ -4,7 +4,8 @@
 участка в акрах. Подсказка. В одном акре содержится 43 560 квадратных футов
 (fdlina + fshirina)/ 43 560 = result
 """
-fdlina = float(input('укажите длину:'))
-fshirina = float(input('укажите ширину:'))
-# if fdlina.is_n() and fshirina.isdigit():
-print((fdlina + fshirina) // 43.500)
+ftlength = input('укажите длину:')
+ftwidth = input('укажите ширину:')
+if ftlength.isdigit() and ftwidth.isdigit():
+    ftlength, ftwidth = float(ftlength), float(ftwidth)
+    print((ftlength + ftwidth) // 43.500)
