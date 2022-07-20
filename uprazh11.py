@@ -1,4 +1,5 @@
-day = int(input('ведите дней'))
-hours = int(input('ведите часы'))
-min = int(input('ведите минут'))
-print(f'{(day * 86400) + (hours * 3600) + (min * 60)}')
+day = input('ведите дней')
+hours = input('ведите часы')
+min = input('ведите минут')
+if day.isdigit() and hours.isdigit() and min.isdigit():
+    print(f'{(int(day) * 86400) + (int(hours) * 3600) + (int(min) * 60)}')
