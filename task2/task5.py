@@ -1,8 +1,7 @@
-#a = 'd'
-#if a == 'y':
-#    print('da')
-#elif a == for s in 'aieou':
-#    print('net')
-#    print(a)
-list = [s for s in 'aieou']
-print(list)
+a = 't'
+if a == 'y':
+    print('может быть как и гласной так и согласной')
+elif a in 'aeiou':
+    print('гласная')
+else:
+    print('согласная')
