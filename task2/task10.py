@@ -7,4 +7,4 @@ while True:
         break
 
     my_list.append(x)
-print(my_list)
+print(sorted(my_list))
