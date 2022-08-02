@@ -1,4 +1,4 @@
- firs_poss = 10.95
+firs_poss = 10.95
 next_poss = 2.95
 poss = input('Ведите сколько посылок')
 if poss.isdigit() and int(poss) == 1:
